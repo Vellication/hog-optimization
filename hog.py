@@ -359,9 +359,15 @@ def brain(score, opponent_score):
         
         # Default return when none of the conditions above are met
         if rolling_d6:
-            return d6_best
+            if avg_d6[d6_best - 1] > bacon_score:
+                return d6_best
+            else
+                return 0
         else:
-            return d4_best
+            if avg_d4[d4_best - 1] > bacon_score:
+                return d4_best
+            else
+                return 0
     '''
 
     '''
