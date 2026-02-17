@@ -23,15 +23,10 @@ def roll_dice(num_rolls, dice=six_sided):
     assert type(num_rolls) == int, 'num_rolls must be an integer.'
     assert num_rolls > 0, 'Must roll at least once.'
     
-    dice_list = []
-    points = 0
-    for i in range(num_rolls):
-        current_die = dice()
-        dice_list.append(current_die)
-    if 1 in dice_list:
-        points = 1 # Pig out
+    if dice == six_sided:
+        points = avg_d6[num_rolls-1]
     else:
-        points = sum(dice_list)
+        points = avg_d4[num_rolls-1]
     return points
 
 def take_turn(num_rolls, opponent_score, dice=six_sided):
