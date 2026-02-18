@@ -12,7 +12,7 @@ Hog is a dice rolling "push your luck" type game where the goal is to get 100 po
   * If no, the active player will roll d6s (six-sided-dice).
 * The active player can now choose a number from 0 to 10.
   * If the active player chose 0, they get an amount of points equal to the largest digit in their opponent's score + 1. This is called Free Bacon. For example, choosing to take Free Bacon when your opponent has 72 points will yield you (7+1) = 8 points.
-  * If the player did not choose 0, they roll that many dice. If any die lands on a 1, the active player gets a total of 1 point. If not, they get the sum of all dice rolled.
+  * If the active player did not choose 0, they roll that many dice. If any die lands on a 1, the active player gets a total of 1 point. If not, they get the sum of all dice rolled.
 * At the end of every turn, check if your score is exactly half or double the opponent's score. If yes, players swap scores, and play continues from that point.
 
 # How is there any strategy here?
