@@ -1,5 +1,5 @@
 # What is this project?
-This is a spinoff of a project included in Laney's CIS 61 class, which itself is based off of UC Berkeley's CIS 61 class. The primary goals of the project are as follows:
+This is a spinoff of a project included in Laney College's CIS 61 class, which itself is based off of UC Berkeley's CIS 61 class. The primary goals of the project are as follows:
 * Plot out (or at least define) the "strategy space" of the game.
 * Create a search algorithm that finds good strategies (or good sets of strategies, as I will discuss later).
 * Somehow prove that the discovered strategy is the best possible strategy.
