@@ -22,4 +22,4 @@ While it may seem that this is a game of pure chance, there is actually a surpri
 My current methodology for evaluating strategies revolves around conceptualizing an n-dimensional space, where n is the number of parameters I'm testing. The full volume of the space is what I call a strategy space, and I think it's extremely crucial to define your strategy space when you are running tests.
 
 # How can we define a "good" strategy?
-I think the abstract definition of the _best_ strategy in a strategy space is something along the lines of, 'a strategy that has a higher winrate than all other strategies in that strategy space.' We can narrow widen the scope of that definition to include _good_ strategies in a strategy space as, 'strategies that have a higher than 50% winrate in that strategy space.'
+I think the abstract definition of the _best_ strategy in a strategy space is something along the lines of, 'a strategy that has a higher winrate than all other strategies in that strategy space.' We can widen the scope of that definition to include _good_ strategies in a strategy space as, 'strategies that have a higher than 50% winrate in that strategy space.'
