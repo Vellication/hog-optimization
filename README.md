@@ -1,3 +1,8 @@
+# PROJECT ON PAUSE
+Unfortunately, after some brainstorming with friends, I have (mostly) solved Hog. While this may sound like a good thing, it means that my previous goals of using this to study gradient descent, genetic algorithms, and other search methods, have fallen by the wayside. You can find the (mostly) solved hog codebase in the Perfected Hogs folder.
+## Why do you keep saying (mostly)?
+Some gamestates are guaranteed wins for a side if they play correctly for 2 turns in a row, but my program doesn't account for that, so it's slightly inaccurate. Just estimating, but I think the table that I made gives the correct answer >95% of the time.
+
 # What is this project?
 This is a spinoff of a project included in Laney College's CIS 61 class, which itself is based off of UC Berkeley's CIS 61 class. The primary goals of the project are as follows:
 * Plot out (or at least define) the "strategy space" of the game.
